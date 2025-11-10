@@ -15,4 +15,12 @@ h2 {
   margin-bottom: 10px;
 }
 
-
+.genero-container{
+  width: 100%;
+}
+.genero{
+  display: flex;
+  gap:20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
