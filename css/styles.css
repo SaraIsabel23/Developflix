@@ -1,5 +1,5 @@
 /* styles.css */
-body {
+/*body {
   font-family: Arial, sans-serif;
 }
 
@@ -23,4 +23,56 @@ h2 {
   gap:20px;
   flex-wrap: wrap;
   align-items: center;
+}
+
+
+/* LO QUE DATA HA HECHO
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.genero-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f8f8f8;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.genero {
+  display: flex;
+  overflow: auto;
+  gap: 20px;
+}
+*/
+/* Personalizar la barra de desplazamiento del género */
+.genero::-webkit-scrollbar {
+  height: 12px; /* Alto de la barra horizontal */
+}
+
+.genero::-webkit-scrollbar-track {
+  background: yellow; /* Color del fondo de la barra */
+  border-radius: 10px;
+}
+
+.genero::-webkit-scrollbar-thumb {
+  background: blue; /* Color de la barra de desplazamiento */
+  border-radius: 10px;
+}
+
+.genero::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color cuando se pasa el mouse por encima */
+}
+
+.card {
+  width: 200px;
+}
+
+.card img {
+  width: 200px;
 }
